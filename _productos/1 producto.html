@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,6 @@
     <title>Articulo</title>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -18,19 +17,17 @@
       rel="stylesheet"
     />
     <link
-      href="../css/materialize.css"
+      href="../_css/materialize.css"
       type="text/css"
       rel="stylesheet"
       media="screen,projection"
     />
     <link
-      href="../css/style.css"
+      href="../_css/style.css"
       type="text/css"
       rel="stylesheet"
       media="screen,projection"
     />
-
-    <link rel="stylesheet" type="text/css" href="../css/style-blog.css" />
   </head>
 
   <body>
@@ -50,7 +47,7 @@
             <div class="responsive" id="logo-container">
               <a href="index.html" class=""
                 ><img
-                  src="../img/_logos/Logo secundario.png"
+                  src="../_img/_logos/Logo secundario.png"
                   alt=""
                   class="responsive-img brand-logo"
               /></a>
@@ -77,75 +74,42 @@
       </div>
     </header>
 
-    <section class="row slider-blog">
-      <div class="slider">
-        <ul class="slides">
-          <li>
-            <img src="../img/slide 1.jpg" class="responsive-img slide-im" />
-            <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">
-                Here's our small slogan.
-              </h5>
-              <a href="#" class="btn btn-large">Más Información</a>
-            </div>
-          </li>
-          <li>
-            <img src="../img/slide 2.jpg" class="responsive-img" />
-            <!-- random image -->
-            <div class="caption left-align">
-              <h3>Left Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">
-                Here's our small slogan.
-              </h5>
-            </div>
-          </li>
-          <li>
-            <img src="../img/slide 3.jpg" class="responsive-img" />
-            <!-- random image -->
-            <div class="caption right-align">
-              <h3>Right Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">
-                Here's our small slogan.
-              </h5>
-            </div>
-          </li>
-          <li>
-            <img src="../img/slide 4.jpg" class="responsive-img" />
-            <!-- random image -->
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">
-                Here's our small slogan.
-              </h5>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
     <section class="row">
       <div class="contenido-articulo">
         <div class="container center">
-          <h1 class="titulo-blog">Conoce nuestra historia</h1>
-          <h4 class="subtitulo-blog">
-            Un rompecabezas de pensamientos e ideas libre para crecer en la
-            mente de quien los lea
-          </h4>
+          <h2 class="titulo-blog">Conoce nuestra historia</h2>
         </div>
       </div>
     </section>
 
     <section class="row">
       <div class="col s12 m8 l9 color-fondo">
-          
-        <div class="img-articulo responsive center  ">
-          <img
-            class="responsive-img img-principal-articulo"
-            src="https://media.eadbox.com/system/uploads/medium/file/5d2df9d5f6c442002f404739/id%205.jpg"
-            alt=""
-          />
+        <div class="carousel">
+          <a class="carousel-item img-carousel-producto" href=""
+            ><img
+              src="../_img/_logos/dif 1 (1) Naranja.png"
+              class="responsive-img"
+          /></a>
+          <a class="carousel-item img-carousel-producto" href=""
+            ><img
+              src="../_img/_logos/dif 2 Naranja.png"
+              class="responsive-img"
+          /></a>
+          <a class="carousel-item img-carousel-producto" href=""
+            ><img
+              src="../_img/_logos/dif 1 (1) Naranja.png"
+              class="responsive-img"
+          /></a>
+          <a class="carousel-item img-carousel-producto" href=""
+            ><img
+              src="../_img/_logos/dif 4 Naranja.png"
+              class="responsive-img"
+          /></a>
+          <a class="carousel-item img-carousel-producto" href=""
+            ><img
+              src="../_img/_logos/dif 3 Naranja.png"
+              class="responsive-img"
+          /></a>
         </div>
 
         <div class="articulo container">
@@ -222,7 +186,7 @@
             <ul class="iconos-sociales">
               <li class="facebook social-autor">
                 <a href="https://www.facebook.com/" target="_blank"
-                  ><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
                 ></a>
               </li>
               <li class="twitter social-autor">
@@ -257,13 +221,13 @@
     </section>
 
     <section class="row center">
-        <div
-          class="fb-comments"
-          data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
-          data-width=""
-          data-numposts="10"
-        ></div>
-      </section>
+      <div
+        class="fb-comments"
+        data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+        data-width=""
+        data-numposts="10"
+      ></div>
+    </section>
 
     <!-- ---------------------- INICIA FOOTER ---------------------- -->
 
@@ -310,8 +274,8 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="../js/materialize.js"></script>
-    <script src="../js/init.js"></script>
-    <script src="../js/js.js"></script>
+    <script src="../_js/materialize.js"></script>
+    <script src="../_js/init.js"></script>
+    <script src="../_js/js.js"></script>
   </body>
 </html>
